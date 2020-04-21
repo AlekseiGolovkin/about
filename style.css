@@ -14,7 +14,7 @@ body {
 }
 
 body:after {
-    content: "Thanks to Unsplash (background image)";
+    /*content: "Thanks to Unsplash (background image)"; */
     position: fixed;
     left: 0;
     bottom: 0;
@@ -24,7 +24,7 @@ body:after {
     font-size: 10pt;
 }
 
-h1 {
+h3 {
     grid-row-start: 1;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -60,8 +60,8 @@ ul {
 ul:before {
     content: 'Quick links';
     font-family: 'Permanent Marker', cursive;
-    color: rgb(28, 33, 104);
-    background-color: rgba(245, 233, 149, 0.5);
+    color: rgb(217, 241, 255);
+    background-color: rgba(79, 105, 75, 0.5);
     font-size: 18pt;
 }
 
@@ -70,7 +70,7 @@ li {
 }
 
 a {
-    color: rgb(28, 33, 104);
+    color: rgb(173, 224, 255);
     display: inline-block;
     overflow: hidden;
     position: relative;
