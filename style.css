@@ -28,7 +28,7 @@ h3 {
     grid-row-start: 1;
     grid-column-start: 1;
     grid-column-end: 3;
-    color: rgb(255, 252, 230);
+    color: linear-gradient(to right, cornflowerblue, aquamarine); /*rgb(255, 252, 230);*/
     font-size: 48pt;
     font-family: 'Playfair Display', sans-serif;
   
